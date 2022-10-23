@@ -9,23 +9,20 @@ const ExpenseForm = () => {
 	});
 
 	const titleChangeHandler = (event) => {
-		setUserInfut({
-			...userInfut,
-			enteredTitle: event.target.value,
+		setUserInfut((prevState) => {
+			return { ...prevState, enteredTitle: event.target.value };
 		});
 	};
 
 	const amountChangeHandler = (event) => {
-		setUserInfut({
-			...userInfut,
-			enteredAmount: event.target.value,
+		setUserInfut((prevState) => {
+			return { ...prevState, enteredAmount: event.target.value };
 		});
 	};
 
 	const dateChangeHandler = (event) => {
-		setUserInfut({
-			...userInfut,
-			enteredDate: event.target.value,
+		setUserInfut((prevState) => {
+			return { ...prevState, enteredDate: event.target.value };
 		});
 	};
 
