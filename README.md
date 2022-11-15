@@ -1,2 +1,3 @@
 # react-course
-Reactjs, Hooks, Redux, React Routing, Animations, Next.js
+
+Reactjs, Hooks, Redux, React Routing, Animations, Next.js.
